@@ -42,7 +42,7 @@ const PostsSection = ({ data }: PostsSectionProps) => {
           variant="outline"
           onClick={handleClickViewAllPosts}
         >
-          view all posts
+          View All Posts
         </Button>
       </Box>
     </Stack>
