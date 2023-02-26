@@ -51,7 +51,7 @@ const Content = () => {
         </Link>
       </Text>
       
-      <Heading size="lg">Technologies that I currently use</Heading>
+      <Heading size="lg">🧑‍💻 Technologies that I currently use</Heading>
       
       <Stack spacing={8} direction="row">
         <UnorderedList>
