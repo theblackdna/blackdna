@@ -1,7 +1,7 @@
 import type { BoxProps } from '@chakra-ui/react';
 import { useColorModeValue, Heading, Link, Text } from '@chakra-ui/react';
-import { Stack } from '@chakra-ui/react';
-import { UnorderedList, ListItem } from '@chakra-ui/react';
+import { Stack, HStack, VStack } from '@chakra-ui/react';
+import { List, ListItem, ListIcon, OrderedList, UnorderedList } from '@chakra-ui/react';
 import * as React from 'react';
 
 import MotionBox from '~/lib/components/motion/MotionBox';
