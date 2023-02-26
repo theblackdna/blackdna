@@ -2,7 +2,7 @@
 
 /** @type {import('next-sitemap').IConfig} */
 const NextSitemapConfig = {
-  siteUrl: "https://sznm.dev",
+  siteUrl: "https://dnachavez.com",
   generateRobotsTxt: true,
 };
 
