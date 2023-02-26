@@ -5,7 +5,7 @@ export const defaultSEOConfig: DefaultSeoProps = {
   title: 'Dan Chavez - Full Stack Developer',
   titleTemplate: '%s | dnachavez',
   defaultTitle: 'dnachavez | Dan Chavez - Full Stack Developer',
-  description: "Dan Chavez Dev Site | dnachavez",
+  description: "Dan Chavez's Dev Site | dnachavez",
   canonical: 'https://dnachavez.com',
   openGraph: {
     url: 'https://dnachavez.com',
