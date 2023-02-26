@@ -48,7 +48,7 @@ const BlogPost = ({ postData }: BlogPostProps) => {
 
       <Box marginY={12}>
         <Giscus
-          repo="sozonome/sznm.dev"
+          repo="theblackdna/blackdna"
           repoId="MDEwOlJlcG9zaXRvcnkyNjY2Njk3MDg="
           mapping="pathname"
           category="Blog Post"
