@@ -60,9 +60,9 @@ const Content = () => {
 
       <Heading size="lg">🧑‍💻 Technologies I use</Heading>
 
-      <UnorderedList direction="row">
+      <UnorderedList display="flex">
         {stackItems.map((stackItem) => (
-          <ListItem key={stackItem}>
+          <ListItem key={stackItem} flexDirection="row">
             <Text {...{ ...textProps, textColor }}>{stackItem}</Text>
           </ListItem>
         ))}
