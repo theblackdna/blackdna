@@ -63,9 +63,9 @@ const Content = () => {
 
       <Stack spacing={8} direction="row">
         <UnorderedList>
-          {stackItems.map((stackItems) => (
-            <ListItem key={stackItems}>
-              <Text {...{ ...textProps, textColor }}>{stackItems}</Text>
+          {stackItems.map((stackItem) => (
+            <ListItem key={stackItem}>
+              <Text {...{ ...textProps, textColor }}>{stackItem}</Text>
             </ListItem>
           ))}
         </UnorderedList>
