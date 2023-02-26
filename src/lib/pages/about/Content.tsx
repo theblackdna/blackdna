@@ -1,5 +1,7 @@
 import type { BoxProps } from '@chakra-ui/react';
 import { useColorModeValue, Heading, Link, Text } from '@chakra-ui/react';
+import { Stack } from '@chakra-ui/react';
+import { UnorderedList, ListItem } from '@chakra-ui/react';
 import * as React from 'react';
 
 import MotionBox from '~/lib/components/motion/MotionBox';
@@ -48,6 +50,18 @@ const Content = () => {
           </Text>
         </Link>
       </Text>
+      
+      <Heading size="lg">Technologies that I currently use</Heading>
+      
+      <Stack spacing={8} direction="row">
+        <UnorderedList>
+          <ListItem>
+            <Text {...{ ...textProps, textColor }}>
+              PHP
+            </Text>
+          </ListItem>
+        </UnorderedList>
+      </Stack>
     </MotionBox>
   );
 };
