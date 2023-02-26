@@ -4,7 +4,6 @@ import {
   Heading,
   Link,
   Text,
-  Stack,
   UnorderedList,
   ListItem,
 } from '@chakra-ui/react';
@@ -61,15 +60,13 @@ const Content = () => {
 
       <Heading size="lg">🧑‍💻 Technologies I use</Heading>
 
-      <Stack spacing={8} direction="row">
-        <UnorderedList>
-          {stackItems.map((stackItem) => (
-            <ListItem key={stackItem}>
-              <Text {...{ ...textProps, textColor }}>{stackItem}</Text>
-            </ListItem>
-          ))}
-        </UnorderedList>
-      </Stack>
+      <UnorderedList direction="row">
+        {stackItems.map((stackItem) => (
+          <ListItem key={stackItem}>
+            <Text {...{ ...textProps, textColor }}>{stackItem}</Text>
+          </ListItem>
+        ))}
+      </UnorderedList>
     </MotionBox>
   );
 };
