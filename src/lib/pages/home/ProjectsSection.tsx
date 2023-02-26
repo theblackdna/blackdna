@@ -58,7 +58,7 @@ const ProjectsSection = ({ data }: ProjectsSectionProps) => {
           fontFamily="heading"
           onClick={handleClickViewAllProjects}
         >
-          view all projects
+          View All Projects
         </Button>
       </Box>
     </Stack>
