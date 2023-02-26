@@ -2,25 +2,25 @@ import type { DefaultSeoProps } from 'next-seo';
 
 // https://github.com/garmeeh/next-seo#nextseo-options
 export const defaultSEOConfig: DefaultSeoProps = {
-  title: 'Agustinus Nathaniel - Digital Crafter',
-  titleTemplate: '%s | sozonome',
-  defaultTitle: 'sozonome | Agustinus Nathaniel - Digital Crafter',
-  description: "Agustinus Nathaniel's Dev Site | sozonome",
-  canonical: 'https://sznm.dev',
+  title: 'Dan Chavez - Full Stack Developer',
+  titleTemplate: '%s | dnachavez',
+  defaultTitle: 'dnachavez | Dan Chavez - Full Stack Developer',
+  description: "Dan Chavez Dev Site | dnachavez",
+  canonical: 'https://dnachavez.com',
   openGraph: {
-    url: 'https://sznm.dev',
-    title: 'sozonome | Digital Crafter',
-    description: "Agustinus Nathaniel's Dev Site",
+    url: 'https://dnachavez.com',
+    title: 'dnachavez | Digital Crafter',
+    description: "Dan Chavez's Dev Site",
     images: [
       {
-        url: 'https://og.sznm.dev/api/generate?heading=sozonome&text=https://sznm.dev',
-        alt: 'sznm.dev og-image',
+        url: 'https://og.sznm.dev/api/generate?heading=dnachavez&text=https://dnachavez.com',
+        alt: 'dnachavez.com og-image',
       },
     ],
-    site_name: 'sozonome',
+    site_name: 'dnachavez',
   },
   twitter: {
-    handle: '@sozonome',
+    handle: '@dnachavez',
     cardType: 'summary_large_image',
   },
 };
