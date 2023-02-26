@@ -18,6 +18,8 @@ const textProps: BoxProps = {
   marginY: 4,
 };
 
+const stackItems = ['HTML', 'CSS', 'JavaScript', 'PHP', 'Java'];
+
 const Content = () => {
   const textColor = useColorModeValue('gray.600', 'gray.300');
   const handleClickInstagramLink = React.useCallback(() => {
@@ -57,13 +59,15 @@ const Content = () => {
         </Link>
       </Text>
 
-      <Heading size="lg">🧑‍💻 Technologies that I currently use</Heading>
+      <Heading size="lg">🧑‍💻 Technologies I use</Heading>
 
       <Stack spacing={8} direction="row">
         <UnorderedList>
-          <ListItem>
-            <Text {...{ ...textProps, textColor }}>PHP</Text>
-          </ListItem>
+          {stackItems.map((stackItems) => (
+            <ListItem key={stackItems}>
+              <Text {...{ ...textProps, textColor }}>{stackItems}</Text>
+            </ListItem>
+          ))}
         </UnorderedList>
       </Stack>
     </MotionBox>
