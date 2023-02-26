@@ -5,7 +5,7 @@ const APP_NAME = 'dnachavez.com';
 const DocumentMeta = () => {
   return (
     <>
-      <link rel="icon" href="/logo.png" />
+      <link rel="icon" href="/logo.jpg" />
       <link
         rel="alternate"
         type="application/rss+xml"
